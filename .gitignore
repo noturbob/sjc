@@ -1,0 +1,77 @@
+# ========================
+# Dependencies
+# ========================
+**/node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# ========================
+# Environment Variables
+# ========================
+**/.env
+**/.env.*
+!**/.env.example
+
+# ========================
+# Next.js (Frontend)
+# ========================
+.next/
+out/
+build/
+.vercel
+
+# ========================
+# Build & Output
+# ========================
+dist/
+*.tsbuildinfo
+
+# ========================
+# Generated Files
+# ========================
+documents/
+uploads/
+logs/
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ========================
+# IDE / Editor
+# ========================
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ========================
+# Debug Logs
+# ========================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# ========================
+# Testing
+# ========================
+coverage/
+
+# ========================
+# Misc
+# ========================
+*.pem
+*.key
+*.cert
